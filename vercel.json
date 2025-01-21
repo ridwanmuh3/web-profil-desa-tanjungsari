@@ -7,6 +7,12 @@
           "type": "host",
           "value": "desatanjungsari.vercel.app"
         }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "all"
+        }
       ]
     }
   ]
