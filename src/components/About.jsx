@@ -25,7 +25,7 @@ const About = () => {
           </div>
           <div className='flex flex-col gap-4 self-center mt-6 lg:mt-0 text-center lg:text-left lg:self-start'>
             <h1 className='font-barlow text-3xl md:text-4xl font-bold'>
-              Tentang <span className='text-primary'>Desa Tanjungsari</span>
+              Tentang <span className='text-blackText'>Desa Tanjungsari</span>
             </h1>
             <p className='max-w-full sm:max-w-[500px] md:max-w-[650px] font-inter leading-8 text-normal sm:text-lg sm:leading-8'>
               Desa Tanjungsari di Kabupaten Tasikmalaya dikenal dengan keindahan
