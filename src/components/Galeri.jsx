@@ -48,11 +48,11 @@ const Galeri = () => {
           <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4'>
             {images.map((image, index) => (
               <div
-                className={`${image.styleGrid} overflow-hidden rounded-lg bg-primary shrink-0 h-48 sm:h-60 md:h-72`}
+                className={`${image.styleGrid} overflow-hidden rounded-lg shrink-0 h-48 sm:h-60 md:h-72`}
                 key={`image-${index + 1}`}>
                 <img
                   className='object-center h-full w-full object-cover'
-                  src={image.link}
+                  src={image.foto}
                   alt={`Gallery image ${index + 1}`}
                   loading='lazy'
                 />

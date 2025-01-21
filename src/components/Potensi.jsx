@@ -1,6 +1,6 @@
 import foto1 from '/src/assets/images/biofloc.png';
-import foto2 from '/src/assets/images/seroja.png';
-import foto3 from '/src/assets/images/image-3.png';
+import foto2 from '/src/assets/images/seroja.jpg';
+import foto3 from '/src/assets/images/image-3.jpg';
 
 const listPotensi = [
   {
