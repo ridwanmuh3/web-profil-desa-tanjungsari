@@ -1,33 +1,41 @@
-const Galeri = () => {
-  const images = [
-    {
-      styleGrid: 'row-span-1 sm:col-span-2 md:col-span-2',
-      link: '/src/assets/images/image-1.jpg',
-    },
-    { styleGrid: 'row-span-1', link: '/src/assets/images/image-2.jpg' },
-    {
-      styleGrid: 'row-span-1 col-span-2 sm:col-span-3 md:col-span-1',
-      link: '/src/assets/images/seroja.jpg',
-    },
-    {
-      styleGrid: 'row-span-1 sm:col-span-1 md:col-span-1 col-span-1',
-      link: '/src/assets/images/biofloc.png',
-    },
-    {
-      styleGrid: 'row-span-1 col-span-1 sm:col-span-2 md:col-span-1',
-      link: '/src/assets/images/pangaosan2.png',
-    },
-    {
-      styleGrid: 'row-span-1 sm:col-span-2 col-span-2 md:col-span-2',
-      link: '/src/assets/images/nomaskat.png',
-    },
-    {
-      styleGrid:
-        'row-span-1 col-span-2 sm:col-span-1 md:col-span-4 lg:col-span-2',
-      link: '/src/assets/images/pangaosan.png',
-    },
-  ];
+import foto1 from '/src/assets/images/image-1.jpg';
+import foto2 from '/src/assets/images/image-2.jpg';
+import foto3 from '/src/assets/images/seroja.jpg';
+import foto4 from '/src/assets/images/biofloc.png';
+import foto5 from '/src/assets/images/pangaosan2.png';
+import foto6 from '/src/assets/images/nomaskat.png';
+import foto7 from '/src/assets/images/pangaosan.png';
 
+const images = [
+  {
+    styleGrid: 'row-span-1 sm:col-span-2 md:col-span-2',
+    foto: foto1,
+  },
+  { styleGrid: 'row-span-1', foto: foto2 },
+  {
+    styleGrid: 'row-span-1 col-span-2 sm:col-span-3 md:col-span-1',
+    foto: foto3,
+  },
+  {
+    styleGrid: 'row-span-1 sm:col-span-1 md:col-span-1 col-span-1',
+    foto: foto4,
+  },
+  {
+    styleGrid: 'row-span-1 col-span-1 sm:col-span-2 md:col-span-1',
+    foto: foto5,
+  },
+  {
+    styleGrid: 'row-span-1 sm:col-span-2 col-span-2 md:col-span-2',
+    foto: foto6,
+  },
+  {
+    styleGrid:
+      'row-span-1 col-span-2 sm:col-span-1 md:col-span-4 lg:col-span-2',
+    foto: foto7,
+  },
+];
+
+const Galeri = () => {
   return (
     <>
       <section

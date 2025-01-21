@@ -1,25 +1,29 @@
-const Potensi = () => {
-  const listPotensi = [
-    {
-      namaPotensi: 'Biofloc',
-      description:
-        'Dengan biofloc, Desa Tanjungsari dapat menjadi pusat produksi ikan yang berkelanjutan dan meningkatkan kesejahteraan masyarakat.',
-      image: '/src/assets/images/biofloc.png',
-    },
-    {
-      namaPotensi: 'UMKM Saroja',
-      description:
-        'UMKM yang memproduksi makanan dengan cita rasa yang khas dan berkualitas dengan bahan lokal.',
-      image: '/src/assets/images/seroja.jpg',
-    },
-    {
-      namaPotensi: 'Pesawahan',
-      description:
-        'Sawah subur menghasilkan padi berkualitas yang menjadi andalan ekonomi dan ketahanan pangan desa.',
-      image: '/src/assets/images/image-3.jpg',
-    },
-  ];
+import foto1 from '/src/assets/images/biofloc.png';
+import foto2 from '/src/assets/images/seroja.png';
+import foto3 from '/src/assets/images/image-3.png';
 
+const listPotensi = [
+  {
+    namaPotensi: 'Biofloc',
+    deskripsi:
+      'Dengan biofloc, Desa Tanjungsari dapat menjadi pusat produksi ikan yang berkelanjutan dan meningkatkan kesejahteraan masyarakat.',
+    foto: foto1,
+  },
+  {
+    namaPotensi: 'UMKM Saroja',
+    deskripsi:
+      'UMKM yang memproduksi makanan dengan cita rasa yang khas dan berkualitas dengan bahan lokal.',
+    foto: foto2,
+  },
+  {
+    namaPotensi: 'Pesawahan',
+    deskripsi:
+      'Sawah subur menghasilkan padi berkualitas yang menjadi andalan ekonomi dan ketahanan pangan desa.',
+    foto: foto3,
+  },
+];
+
+const Potensi = () => {
   return (
     <>
       <section className='py-40 bg-secondaryBg' id='potensi'>
@@ -35,7 +39,7 @@ const Potensi = () => {
                 <div className='w-full h-40 overflow-hidden rounded-t-lg'>
                   <img
                     className='object-fit object-bottom'
-                    src={item.image}
+                    src={item.foto}
                     alt='image not found'
                     loading='lazy'
                   />
@@ -45,7 +49,7 @@ const Potensi = () => {
                     {item.namaPotensi}
                   </h1>
                   <p className='text-normal leading-8 md:text-lg md:leading-8'>
-                    {item.description}
+                    {item.deskripsi}
                   </p>
                 </div>
               </div>

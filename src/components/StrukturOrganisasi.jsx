@@ -1,4 +1,4 @@
-import dataStrukturOrganisasi from '/src/data/strukturOrganisasi.json';
+import dataStrukturOrganisasi from '/src/data/strukturOrganisasi';
 
 const StrukturOrganisasi = () => {
   return (
